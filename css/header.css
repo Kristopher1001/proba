@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  margin: 0 20px 50px 20px;
+  font-size: 40px;
+  font-weight: normal;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.section--dark .header {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .header {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+.header--white {
+  color: white;
+}
+
+.header--no-margin {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=header.css.map */

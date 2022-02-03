@@ -1,0 +1,22 @@
+.logo {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  -webkit-filter: brightness(125%);
+          filter: brightness(125%);
+}
+
+.logo__image {
+  display: block;
+  width: 200px;
+}
+
+@media (max-width: 1023px) {
+  .logo__image {
+    width: 160px;
+  }
+}
+/*# sourceMappingURL=logo.css.map */

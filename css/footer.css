@@ -1,0 +1,24 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: ()[2];
+      grid-template-columns: repeat(2);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  background: #2e2d37;
+  color: #eee;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.css.map */

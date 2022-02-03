@@ -1,0 +1,22 @@
+.container {
+  width: 1240px;
+  margin: auto;
+  max-width: calc(100% - 60px);
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: calc(100% - 30px);
+  }
+}
+
+.container--small {
+  width: 1100px;
+}
+
+@media (max-width: 1240px) {
+  .container--small {
+    width: 800px;
+  }
+}
+/*# sourceMappingURL=container.css.map */
